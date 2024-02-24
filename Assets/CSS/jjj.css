@@ -1,0 +1,806 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+
+}
+h1{
+    color: white;
+}
+h1:hover{
+    color: gray;
+    transition: 3s ease-in;
+}
+body::-webkit-scrollbar{
+    display:none;
+}
+.vvv{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.vvv1{
+    margin: 20px;
+    position: relative;
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.v1{
+    background-color:white;
+    width: 200px;
+    height: 450px;
+    position: relative;
+    
+}
+.v2{
+    width: 160px;
+    margin: 20px;
+    height: 250px;
+    background-color:white;
+    box-shadow: 1px 1px 1px  gainsboro;
+}
+.v2 img{
+    width: 100%;
+    height: 60%;
+}
+.v2 h5{
+    font-size: 8px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: gray;
+}
+.v2 h2{
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.icons11{
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+    line-height: 30px;
+}
+.icons11{
+    font-size: 13px;
+}
+.v1 h1{
+    font-size: 16px;
+    position: absolute;
+    top: 285px;
+    left:20px;
+    color: gray;
+}
+.v1 h4{
+    position: absolute;
+    top: 289px;
+    left: 133px;
+    display: none;
+
+}
+.v1 p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.v1 button{
+    background-color: #6990cb;
+    top: 285px;
+    position: absolute;
+    font-size: 10px;
+    padding: 8px;
+    border: none;
+    left: 20px;
+    display: none;
+}
+.v1 p{
+    position: absolute;
+    top: 320px;
+    display:none;
+}
+.v22{
+    display: flex;
+    overflow: hidden;
+}
+.kkk{
+    display: none;
+}
+.v22:hover .kkk1{
+    display: none;
+}
+.v22:hover .kkk{
+    display: block;
+}
+.v1:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.v1:hover .kkk{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.v1:hover .kkk1{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.v1:hover{
+    box-shadow: 2px 2px 2px gainsboro;
+}
+.v1:hover h1{
+    display: none;
+   
+}
+.v1:hover h4{
+    display: block;
+    color: gray;
+}
+.v1:hover p{
+    display: block;
+}
+.v1:hover button{
+    display: block;
+}
+.btn h6{
+    padding: 8px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e95c5c;
+    color: white;
+    letter-spacing: 1px;
+}
+.p1{
+    color: #f39d72;
+}
+.p2{
+    color: #f39d72;
+}.p3{
+    color: gray;
+}.p4{
+    color: gray;
+}.p5{
+    color: gray;
+}
+.v5{
+    background-color:white;
+    width: 200px;
+    height: 450px;
+    position: relative;
+    
+}
+.v2{
+    width: 160px;
+    margin: 20px;
+    height: 250px;
+    background-color:white;
+    box-shadow: 1px 1px 1px  gainsboro;
+}
+.v2 img{
+    width: 100%;
+    height: 60%;
+}
+.v2 h5{
+    font-size: 8px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: gray;
+}
+.v2 h2{
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.icons11{
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+    line-height: 30px;
+}
+.icons11{
+    font-size: 13px;
+}
+.v5 h1{
+    font-size: 16px;
+    position: absolute;
+    top: 285px;
+    left:20px;
+    color: gray;
+}
+.v5 h4{
+    position: absolute;
+    top: 289px;
+    left: 133px;
+    display: none;
+
+}
+.v5 p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.v5 button{
+    background-color: #6990cb;
+    top: 285px;
+    position: absolute;
+    font-size: 10px;
+    padding: 8px;
+    border: none;
+    left: 20px;
+    display: none;
+}
+.v5 p{
+    position: absolute;
+    top: 320px;
+    display:none;
+}
+.v22{
+    display: flex;
+    overflow: hidden;
+}
+.kkk{
+    display: none;
+}
+.v22:hover .kkk1{
+    display: none;
+}
+.v22:hover .kkk{
+    display: block;
+}
+.v5:hover {
+ transform: scale(1.1);
+    transition: 0.7s;
+}
+.v5:hover .kkk{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.v5:hover .kkk1{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.v5:hover{
+    box-shadow: 2px 2px 2px gainsboro;
+}
+.v5:hover h1{
+    display: none;
+   
+}
+.v5:hover h4{
+    display: block;
+    color: gray;
+}
+.v5:hover p{
+    display: block;
+}
+.v5:hover button{
+    display: block;
+}
+.btn h6{
+    padding: 8px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e95c5c;
+    color: white;
+    letter-spacing: 1px;
+}
+.p1{
+    color: #f39d72;
+}
+.p2{
+    color: #f39d72;
+}.p3{
+    color: gray;
+}.p4{
+    color: gray;
+}.p5{
+    color: gray;
+}
+.v6{
+    background-color:white;
+    width: 200px;
+    height: 450px;
+    position: relative;
+    
+}
+.v2{
+    width: 160px;
+    margin: 20px;
+    height: 250px;
+    background-color:white;
+    box-shadow: 1px 1px 1px  gainsboro;
+}
+.v2 img{
+    width: 100%;
+    height: 60%;
+}
+.v2 h5{
+    font-size: 8px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.v2 h2{
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.icons11{
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+    line-height: 30px;
+}
+.icons11{
+    font-size: 13px;
+}
+.v6 h1{
+    font-size: 16px;
+    position: absolute;
+    top: 285px;
+    left:20px;
+    color: gray;
+}
+.v6 h4{
+    position: absolute;
+    top: 289px;
+    left: 133px;
+    display: none;
+
+}
+.v6 p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.v6 button{
+    background-color: #6990cb;
+    top: 285px;
+    position: absolute;
+    font-size: 10px;
+    padding: 8px;
+    border: none;
+    left: 20px;
+    display: none;
+}
+.v6 p{
+    position: absolute;
+    top: 320px;
+    display:none;
+    
+}
+.v22{
+    display: flex;
+    overflow: hidden;
+}
+.kkk{
+    display: none;
+}
+.v22:hover .kkk1{
+    display: none;
+}
+.v22:hover .kkk{
+    
+    transform: translate(100%);
+    transition: 50s;
+
+}
+.v6:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.v6:hover .kkk{
+   
+}
+.v6:hover .kkk1{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.v6:hover{
+    box-shadow: 2px 2px 2px gainsboro;
+}
+.v6:hover h1{
+    display: none;
+   
+}
+.v6:hover h4{
+    display: block;
+    color: gray;
+}
+.v6:hover p{
+    display: block;
+}
+.v6:hover button{
+    display: block;
+}
+.btn h6{
+    padding: 8px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e95c5c;
+    color: white;
+    letter-spacing: 1px;
+}
+.all2:hover{
+    transform:translatey(100%);
+    transition: 10s;
+}
+.all2:hover .all1{
+    transform:translatex(100%);
+    transition: 10s;
+}
+.p1{
+    color: #f39d72;
+}
+.p2{
+    color: #f39d72;
+}.v6 .p3{
+    color: #f39d72;
+}.p4{
+    color: gray;
+}.p5{
+    color: gray;
+}
+.all1{
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 530px;
+    letter-spacing: 1px;
+}
+.all2{
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 530px;
+    letter-spacing: 1px;
+}
+
+/* .all1:hover{
+    background-color: #333333;
+    color: white;
+} */
+.lll img{
+    margin-top: 100px;
+    border-radius: 100%;
+    width: 300px ;
+}
+.lll img:hover{
+    transform:rotate(360deg);
+    transition:10s;
+}
+
+    
+
+
+.bbb{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bbb img{
+    width: 300px;
+}
+.bbb img:hover{
+    
+        transform:rotatey(-360deg);
+        transition:10s;
+}
+.vvv img{
+    width: 400px;
+}
+.vvv img:hover{
+    transform: translate(50%);
+    transition: 4s;
+}
+.aaa{
+    display: flex;
+    overflow: hidden;
+}
+.aaa1{
+    display: flex;
+}
+.aaa2{
+    display: flex;
+}
+.aaa .th{
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 1870px;
+    left: 70px;
+
+
+}
+.aaa1 .th{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 2000px;
+    left: 70px;
+
+
+}
+.aaa2 .th{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 2130px;
+    left: 70px;
+
+
+}
+.aaa .th{
+    display: none;
+}
+.aaa:hover .th{
+    display: block;
+}
+.aaa .th1:hover{
+    transform: translatex(-70%);
+    transition:2s;
+    
+}
+.aaa1 .th{
+    display: block;
+}
+.aaa1 .th1:hover{
+    transform: translatex(70%);
+    transition:2s;
+    
+}
+
+.aaa2 .th{
+    display: block;
+}
+.aaa2 .th1:hover{
+    transform: translatex(-70%);
+    transition:2s;
+    
+}
+
+
+.aaa .th1{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:white;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 1870px;
+    left: 160px;
+
+}
+.aaa1 .th1{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:white;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 2000px;
+    left: 300px;
+
+}
+.aaa2 .th1{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    background-color:white;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 2130px;
+    left: 70px;
+
+}
+.cons1{
+    background-color:white;
+    width: 100%;
+    height: 60%;
+}
+.grid5{
+    justify-items: center;
+    
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    
+}
+.fg1{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.ry img{
+    position: absolute;
+    top: 20px;
+    width: 100px;
+
+}
+.eeee{
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+.grid0{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.fk1{
+    width: 300px ;
+    height: 400px;
+    background-color:white;
+    position: relative;
+    overflow: hidden;
+}
+    
+
+.fk1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fk2{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+}
+    
+.gk1 .fk2:hover{
+    transform: translatex(100%);
+    transition: 2s;
+}
+.gk2 .fk2:hover{
+    transform: translatex(-100%);
+    transition:2s;
+}
+.gk3 .fk2:hover{
+    transform: translatey(100%);
+    transition: 2s;
+}
+.gk4 .fk2:hover{
+    transform: translatey(-100%);
+    transition: 2s;
+}
+.fk2 img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gk1{
+    width: 300px;
+    height: 500px;
+    background-color:white;
+}
+.gk2{
+    width: 300px;
+    height: 500px;
+    background-color:white;
+}
+.gk3{
+    width: 300px;
+    height: 500px;
+    background-color:white;
+}
+.gk4{
+    width: 300px;
+    height: 500px;
+    background-color:white;
+}
+
+.grid11{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    grid-gap: 40px;
+    
+}
+.op{
+    
+    width: 100%;
+    height: 30%;
+    background-color:white;
+    
+}
+.n1{
+    background-color:white;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    position: relative;
+   
+}
+.n1:hover{
+    box-shadow: 2px 2px 2px 2px gainsboro;
+}
+.n2:hover{
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+.n2:hover{
+    transform: rotate(360deg);
+    transition: 5s;
+}
+.n2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.n2{
+    background-color:white;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
